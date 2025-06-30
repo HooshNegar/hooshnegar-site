@@ -325,3 +325,49 @@ footer {
     width: 160px;
   }
 }
+/* لوگو بزرگ‌تر و زیباتر */
+.navbar-brand {
+  font-family: 'Vazirmatn', sans-serif;
+  font-size: 2rem;
+  letter-spacing: -1px;
+}
+
+/* خط زیر منوها */
+.navbar {
+  border-bottom: 2px solid #e0e0e0;
+}
+
+/* هاور برای منوها */
+.custom-hover {
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.custom-hover::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0%;
+  height: 2px;
+  background-color: #2d38ef;
+  transition: width 0.3s ease;
+}
+
+.custom-hover:hover::after {
+  width: 100%;
+  left: 0;
+  right: auto;
+}
+
+.custom-hover:hover {
+  color: #2d38ef !important;
+}
+
+/* هاور برای بخش خدمات */
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
