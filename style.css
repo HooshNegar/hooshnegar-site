@@ -1,0 +1,327 @@
+body {
+  margin: 0;
+  font-family: 'Vazirmatn', sans-serif;
+  background-color: #ffffff;
+  color: #333;
+  direction: rtl;
+}
+
+header {
+  background-color: #2d38ef;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background: linear-gradient(to left, #2d38ef, #ffffff);
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: #2d38ef;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+
+.cta-buttons {
+  margin-top: 2rem;
+}
+
+.cta-buttons a {
+  background-color: #2d38ef;
+  color: white;
+  padding: 0.8rem 1.5rem;
+  margin: 0 0.5rem;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.services {
+  padding: 3rem 2rem;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.services h2 {
+  color: #2d38ef;
+  margin-bottom: 2rem;
+}
+
+.service-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.service {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+footer {
+  background-color: #2d38ef;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+}
+.page-header {
+  text-align: center;
+  padding: 3rem 2rem 1rem;
+  background-color: #f0f4ff;
+}
+
+.page-header h1 {
+  color: #2d38ef;
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.page-header p {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.portfolio {
+  padding: 3rem 2rem;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.portfolio-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.portfolio-item {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  background-color: #fefefe;
+  text-align: right;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.portfolio-item h3 {
+  color: #2d38ef;
+  font-size: 1.1rem;
+  margin: 1rem;
+}
+
+.portfolio-item p {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0 1rem 1rem;
+}
+.about {
+  padding: 3rem 2rem;
+  background-color: #f9f9f9;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  align-items: flex-start;
+}
+
+.about-text {
+  flex: 1 1 500px;
+}
+
+.about-text h2 {
+  color: #2d38ef;
+  margin-bottom: 1rem;
+}
+
+.about-text p {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+.about-text ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about-text li {
+  margin-bottom: 0.5rem;
+  font-size: 0.95rem;
+}
+
+.about-image {
+  flex: 1 1 300px;
+  text-align: center;
+}
+
+.about-image img {
+  width: 220px;
+  border-radius: 50%;
+  border: 4px solid #2d38ef;
+}
+
+.caption {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+.contact {
+  padding: 3rem 2rem;
+  background-color: #ffffff;
+}
+
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.contact-form {
+  flex: 1 1 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label {
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: #2d38ef;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: inherit;
+}
+
+.contact-form button {
+  background-color: #2d38ef;
+  color: white;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #1f2bd1;
+}
+
+.contact-info {
+  flex: 1 1 300px;
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.contact-info h3 {
+  color: #2d38ef;
+  margin-bottom: 1rem;
+}
+
+.contact-info a {
+  color: #2d38ef;
+  text-decoration: none;
+}
+
+.social-links {
+  margin-top: 1rem;
+}
+/* ریسپانسیو برای تبلت و موبایل */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav {
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+  }
+
+  .cta-buttons a {
+    margin: 0.5rem 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .service-items,
+  .portfolio-grid,
+  .contact-container,
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service,
+  .portfolio-item,
+  .contact-form,
+  .contact-info,
+  .about-text,
+  .about-image {
+    width: 100%;
+    max-width: 90%;
+  }
+
+  .about-image img {
+    width: 160px;
+  }
+}
