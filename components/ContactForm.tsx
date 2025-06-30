@@ -48,6 +48,15 @@ export default function ContactForm() {
           className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#2d38ef]"
           required
         />
+        <input 
+          name="mobil"
+          type="mobil"
+          value={form.name}
+          onChange={handleChange}
+          placeholder="شماره موبایل"
+          className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-[#2d38ef]"
+          required
+          />
         <textarea
           name="message"
           value={form.message}
